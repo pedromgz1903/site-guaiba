@@ -8,10 +8,10 @@ export default function Gallery() {
       <div className="flex flex-col lg:flex-row gap-8 max-w-5xl w-full px-6">
         {/* Vídeo - Fumê Escuro */}
         <div className="flex-1 bg-zinc-950 rounded-xl p-4 border border-zinc-800 shadow-lg flex flex-col items-center">
-          <h4 className="text-xl font-semibold text-gray-300 mb-4">Película Fumê Escuro</h4>
+          <h4 className="text-xl font-semibold text-gray-300 mb-4">Película Espelhada</h4>
           <div className="w-full rounded-lg overflow-hidden border-2 border-zinc-700">
             <video 
-              src="/fume-escuro.mp4" 
+              src="/videodaespelhada.mp4"
               controls 
               autoPlay 
               loop 
@@ -20,7 +20,7 @@ export default function Gallery() {
             />
           </div>
           <p className="mt-4 text-gray-400 text-sm text-center">
-            Máxima privacidade e redução de claridade para as janelas e portas de vidro da sua casa.
+            Efeito espelhado moderno que garante a sua privacidade diurna e bloqueia os raios solares, protegendo os seus móveis.
           </p>
         </div>
 
