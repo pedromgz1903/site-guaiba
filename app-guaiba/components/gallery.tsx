@@ -29,10 +29,11 @@ export default function Gallery() {
           {/* Jateada */}
           <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800 shadow-lg flex items-center gap-4">
             <div className="w-1/2 rounded-lg overflow-hidden border-2 border-zinc-700">
-              <img src="/jateada.jpg" alt="Película Jateada em banheiro" className="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="/jateada.jpg" alt="Película de Vinil Jateada" 
+              className="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="w-1/2">
-              <h4 className="text-lg font-bold text-blue-400">Película Jateada</h4>
+              <h4 className="text-lg font-bold text-blue-400">Película de Vinil Jateada </h4>
               <p className="text-sm text-gray-400 mt-2">Efeito fosco elegante, perfeito para dar privacidade em banheiros e divisórias.</p>
             </div>
           </div>
@@ -40,7 +41,8 @@ export default function Gallery() {
           {/* Segurança */}
           <div className="bg-zinc-950 rounded-xl p-4 border border-zinc-800 shadow-lg flex items-center gap-4">
             <div className="w-1/2 rounded-lg overflow-hidden border-2 border-zinc-700">
-              <img src="/seguranca.jpg" alt="Película de Segurança residencial" className="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="/seguranca.jpg" alt="Película de Segurança" 
+              className="w-full h-32 object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="w-1/2">
               <h4 className="text-lg font-bold text-blue-400">Película de Segurança</h4>
