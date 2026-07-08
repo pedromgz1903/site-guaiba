@@ -33,7 +33,6 @@ export default function Home() {
               <p className="text-sm text-gray-300 leading-relaxed">
                 Somos especialistas em instalação de películas de alta performance <strong>exclusivamente em residências</strong>. 
                 Aqui você acompanha nossos serviços que garantem privacidade, redução de calor e segurança para o seu lar. 
-                Atendemos toda a região com o máximo padrão de qualidade.
               </p>
 
               {/* Seção de Links com Ícones Premium */}
